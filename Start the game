@@ -1,3 +1,23 @@
+
+print("Player 1 please Enter a word for player 2:")
+word2=input()
+
+print("Player 2 please Enter a word for player 1:")
+word1=input()
+
+Word1 = list(word1)
+Word2 = list(word2)
+
+Word1_now=['_'] * len(Word1)
+Word2_now=['_'] * len(Word2)
+
+
+
+lives1= (len(Word1)/3) *2
+lives2= (len(Word2)/3) *2
+lives1=int(lives1)
+lives2=int(lives2)
+
 while lives1 !=0 and lives2!=0:
     print("Player 1 please Enter your guess:")
     guess1=input()
