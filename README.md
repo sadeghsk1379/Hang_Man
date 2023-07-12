@@ -4,4 +4,4 @@ and code make lives for them based on their word
 (lives means number of the wrong guess they can have)
 after that code checks 2 things
 1. if anyplayer lost all the lives other player will win
-2. if one player guess all the characters of the word sooner, its thw winner
+2. if one player guess all the characters of the word sooner, its the winner
